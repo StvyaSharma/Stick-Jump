@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4CDB0426427FAB003D40F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CDB0326427FAB003D40F9 /* AppDelegate.swift */; };
+		5D4CDB0626427FAB003D40F9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5D4CDB0526427FAB003D40F9 /* GameScene.sks */; };
+		5D4CDB0826427FAB003D40F9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5D4CDB0726427FAB003D40F9 /* Actions.sks */; };
+		5D4CDB0A26427FAB003D40F9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CDB0926427FAB003D40F9 /* GameScene.swift */; };
+		5D4CDB0C26427FAB003D40F9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CDB0B26427FAB003D40F9 /* GameViewController.swift */; };
+		5D4CDB0F26427FAB003D40F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4CDB0D26427FAB003D40F9 /* Main.storyboard */; };
+		5D4CDB1126427FAB003D40F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4CDB1026427FAB003D40F9 /* Assets.xcassets */; };
+		5D4CDB1C26427FAC003D40F9 /* Stick_JumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CDB1B26427FAC003D40F9 /* Stick_JumpTests.swift */; };
+		5D4CDB2726427FAC003D40F9 /* Stick_JumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CDB2626427FAC003D40F9 /* Stick_JumpUITests.swift */; };
+		5D4CDB3526427FE9003D40F9 /* stickman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5D4CDB3426427FE9003D40F9 /* stickman.atlas */; };
+		5D4CDB3726427FF5003D40F9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D4CDB3626427FF5003D40F9 /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D4CDB1826427FAC003D40F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4CDAF826427FAB003D40F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4CDAFF26427FAB003D40F9;
+			remoteInfo = "Stick Jump";
+		};
+		5D4CDB2326427FAC003D40F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4CDAF826427FAB003D40F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4CDAFF26427FAB003D40F9;
+			remoteInfo = "Stick Jump";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D4CDB0026427FAB003D40F9 /* Stick Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stick Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4CDB0326427FAB003D40F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D4CDB0526427FAB003D40F9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5D4CDB0726427FAB003D40F9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5D4CDB0926427FAB003D40F9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5D4CDB0B26427FAB003D40F9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5D4CDB0E26427FAB003D40F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D4CDB1026427FAB003D40F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D4CDB1226427FAB003D40F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4CDB1726427FAC003D40F9 /* Stick JumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stick JumpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4CDB1B26427FAC003D40F9 /* Stick_JumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stick_JumpTests.swift; sourceTree = "<group>"; };
+		5D4CDB1D26427FAC003D40F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4CDB2226427FAC003D40F9 /* Stick JumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stick JumpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4CDB2626427FAC003D40F9 /* Stick_JumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stick_JumpUITests.swift; sourceTree = "<group>"; };
+		5D4CDB2826427FAC003D40F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4CDB3426427FE9003D40F9 /* stickman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = stickman.atlas; sourceTree = "<group>"; };
+		5D4CDB3626427FF5003D40F9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4CDAFD26427FAB003D40F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4CDB1426427FAC003D40F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4CDB1F26427FAC003D40F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4CDAF726427FAB003D40F9 = {
+			isa = PBXGroup;
+			children = (
+				5D4CDB0226427FAB003D40F9 /* Stick Jump */,
+				5D4CDB1A26427FAC003D40F9 /* Stick JumpTests */,
+				5D4CDB2526427FAC003D40F9 /* Stick JumpUITests */,
+				5D4CDB0126427FAB003D40F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D4CDB0126427FAB003D40F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4CDB0026427FAB003D40F9 /* Stick Jump.app */,
+				5D4CDB1726427FAC003D40F9 /* Stick JumpTests.xctest */,
+				5D4CDB2226427FAC003D40F9 /* Stick JumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4CDB0226427FAB003D40F9 /* Stick Jump */ = {
+			isa = PBXGroup;
+			children = (
+				5D4CDB0326427FAB003D40F9 /* AppDelegate.swift */,
+				5D4CDB0526427FAB003D40F9 /* GameScene.sks */,
+				5D4CDB0726427FAB003D40F9 /* Actions.sks */,
+				5D4CDB0926427FAB003D40F9 /* GameScene.swift */,
+				5D4CDB3626427FF5003D40F9 /* background.png */,
+				5D4CDB0B26427FAB003D40F9 /* GameViewController.swift */,
+				5D4CDB0D26427FAB003D40F9 /* Main.storyboard */,
+				5D4CDB3426427FE9003D40F9 /* stickman.atlas */,
+				5D4CDB1026427FAB003D40F9 /* Assets.xcassets */,
+				5D4CDB1226427FAB003D40F9 /* Info.plist */,
+			);
+			path = "Stick Jump";
+			sourceTree = "<group>";
+		};
+		5D4CDB1A26427FAC003D40F9 /* Stick JumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4CDB1B26427FAC003D40F9 /* Stick_JumpTests.swift */,
+				5D4CDB1D26427FAC003D40F9 /* Info.plist */,
+			);
+			path = "Stick JumpTests";
+			sourceTree = "<group>";
+		};
+		5D4CDB2526427FAC003D40F9 /* Stick JumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4CDB2626427FAC003D40F9 /* Stick_JumpUITests.swift */,
+				5D4CDB2826427FAC003D40F9 /* Info.plist */,
+			);
+			path = "Stick JumpUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D4CDAFF26427FAB003D40F9 /* Stick Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4CDB2B26427FAC003D40F9 /* Build configuration list for PBXNativeTarget "Stick Jump" */;
+			buildPhases = (
+				5D4CDAFC26427FAB003D40F9 /* Sources */,
+				5D4CDAFD26427FAB003D40F9 /* Frameworks */,
+				5D4CDAFE26427FAB003D40F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stick Jump";
+			productName = "Stick Jump";
+			productReference = 5D4CDB0026427FAB003D40F9 /* Stick Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D4CDB1626427FAC003D40F9 /* Stick JumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4CDB2E26427FAC003D40F9 /* Build configuration list for PBXNativeTarget "Stick JumpTests" */;
+			buildPhases = (
+				5D4CDB1326427FAC003D40F9 /* Sources */,
+				5D4CDB1426427FAC003D40F9 /* Frameworks */,
+				5D4CDB1526427FAC003D40F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4CDB1926427FAC003D40F9 /* PBXTargetDependency */,
+			);
+			name = "Stick JumpTests";
+			productName = "Stick JumpTests";
+			productReference = 5D4CDB1726427FAC003D40F9 /* Stick JumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D4CDB2126427FAC003D40F9 /* Stick JumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4CDB3126427FAC003D40F9 /* Build configuration list for PBXNativeTarget "Stick JumpUITests" */;
+			buildPhases = (
+				5D4CDB1E26427FAC003D40F9 /* Sources */,
+				5D4CDB1F26427FAC003D40F9 /* Frameworks */,
+				5D4CDB2026427FAC003D40F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4CDB2426427FAC003D40F9 /* PBXTargetDependency */,
+			);
+			name = "Stick JumpUITests";
+			productName = "Stick JumpUITests";
+			productReference = 5D4CDB2226427FAC003D40F9 /* Stick JumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4CDAF826427FAB003D40F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5D4CDAFF26427FAB003D40F9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5D4CDB1626427FAC003D40F9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5D4CDAFF26427FAB003D40F9;
+					};
+					5D4CDB2126427FAC003D40F9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5D4CDAFF26427FAB003D40F9;
+					};
+				};
+			};
+			buildConfigurationList = 5D4CDAFB26427FAB003D40F9 /* Build configuration list for PBXProject "Stick Jump" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D4CDAF726427FAB003D40F9;
+			productRefGroup = 5D4CDB0126427FAB003D40F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D4CDAFF26427FAB003D40F9 /* Stick Jump */,
+				5D4CDB1626427FAC003D40F9 /* Stick JumpTests */,
+				5D4CDB2126427FAC003D40F9 /* Stick JumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4CDAFE26427FAB003D40F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4CDB3526427FE9003D40F9 /* stickman.atlas in Resources */,
+				5D4CDB3726427FF5003D40F9 /* background.png in Resources */,
+				5D4CDB0F26427FAB003D40F9 /* Main.storyboard in Resources */,
+				5D4CDB0626427FAB003D40F9 /* GameScene.sks in Resources */,
+				5D4CDB1126427FAB003D40F9 /* Assets.xcassets in Resources */,
+				5D4CDB0826427FAB003D40F9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4CDB1526427FAC003D40F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4CDB2026427FAC003D40F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4CDAFC26427FAB003D40F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4CDB0A26427FAB003D40F9 /* GameScene.swift in Sources */,
+				5D4CDB0C26427FAB003D40F9 /* GameViewController.swift in Sources */,
+				5D4CDB0426427FAB003D40F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4CDB1326427FAC003D40F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4CDB1C26427FAC003D40F9 /* Stick_JumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4CDB1E26427FAC003D40F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4CDB2726427FAC003D40F9 /* Stick_JumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D4CDB1926427FAC003D40F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4CDAFF26427FAB003D40F9 /* Stick Jump */;
+			targetProxy = 5D4CDB1826427FAC003D40F9 /* PBXContainerItemProxy */;
+		};
+		5D4CDB2426427FAC003D40F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4CDAFF26427FAB003D40F9 /* Stick Jump */;
+			targetProxy = 5D4CDB2326427FAC003D40F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D4CDB0D26427FAB003D40F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D4CDB0E26427FAB003D40F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D4CDB2926427FAC003D40F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D4CDB2A26427FAC003D40F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D4CDB2C26427FAC003D40F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSRAF29WBK;
+				INFOPLIST_FILE = "Stick Jump/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stvya.Stick-Jump";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D4CDB2D26427FAC003D40F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSRAF29WBK;
+				INFOPLIST_FILE = "Stick Jump/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stvya.Stick-Jump";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D4CDB2F26427FAC003D40F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSRAF29WBK;
+				INFOPLIST_FILE = "Stick JumpTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stvya.Stick-JumpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stick Jump.app/Stick Jump";
+			};
+			name = Debug;
+		};
+		5D4CDB3026427FAC003D40F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSRAF29WBK;
+				INFOPLIST_FILE = "Stick JumpTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stvya.Stick-JumpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stick Jump.app/Stick Jump";
+			};
+			name = Release;
+		};
+		5D4CDB3226427FAC003D40F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSRAF29WBK;
+				INFOPLIST_FILE = "Stick JumpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stvya.Stick-JumpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stick Jump";
+			};
+			name = Debug;
+		};
+		5D4CDB3326427FAC003D40F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSRAF29WBK;
+				INFOPLIST_FILE = "Stick JumpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stvya.Stick-JumpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stick Jump";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4CDAFB26427FAB003D40F9 /* Build configuration list for PBXProject "Stick Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4CDB2926427FAC003D40F9 /* Debug */,
+				5D4CDB2A26427FAC003D40F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4CDB2B26427FAC003D40F9 /* Build configuration list for PBXNativeTarget "Stick Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4CDB2C26427FAC003D40F9 /* Debug */,
+				5D4CDB2D26427FAC003D40F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4CDB2E26427FAC003D40F9 /* Build configuration list for PBXNativeTarget "Stick JumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4CDB2F26427FAC003D40F9 /* Debug */,
+				5D4CDB3026427FAC003D40F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4CDB3126427FAC003D40F9 /* Build configuration list for PBXNativeTarget "Stick JumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4CDB3226427FAC003D40F9 /* Debug */,
+				5D4CDB3326427FAC003D40F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D4CDAF826427FAB003D40F9 /* Project object */;
+}
